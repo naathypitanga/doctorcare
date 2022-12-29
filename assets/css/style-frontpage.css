@@ -173,12 +173,18 @@
   
     height: var(--nav-height);
     width: 100vw;
-  
+
     position: fixed;
     top: 0;
     transition: 500ms;
 
     z-index: 100;
+  }
+
+  #navigation {
+    background: var(--primary-color);
+ 
+    transition: 500ms;
   }
   
   nav .wrapper {
@@ -187,10 +193,8 @@
     justify-content: space-between;
   }
   
-  nav.scroll {
-    background: var(--primary-color);
- 
-    transition: 500ms;
+  nav .scroll {
+    
   }
   
   nav button {
